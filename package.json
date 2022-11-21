@@ -2,7 +2,7 @@
   "name": "labs",
   "version": "1.0.0",
   "type": "module",
-  "module": "index.js",
+  "main": "index.js",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/Romaad2027/kpi-node-js-labs/issues"
   },
-  "homepage": "https://github.com/Romaad2027/kpi-node-js-labs#readme"
+  "homepage": "https://github.com/Romaad2027/kpi-node-js-labs#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.5.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
 }
