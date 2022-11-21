@@ -10,6 +10,8 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
+  plugins: ["sonarjs"],
+  extends: ["standard", "plugin:sonarjs/recommended"],
   rules: {
   }
 }
