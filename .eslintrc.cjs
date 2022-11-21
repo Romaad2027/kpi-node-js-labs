@@ -11,7 +11,7 @@ module.exports = {
     sourceType: 'module'
   },
   plugins: ["sonarjs"],
-  extends: ["standard", "plugin:sonarjs/recommended"],
+  extends: ["standard", "plugin:sonarjs/recommended", 'prettier'],
   rules: {
   }
 }
